@@ -30,3 +30,5 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   console.log(`Interview API Server running on port ${PORT}`);
 });
+
+export default app;
