@@ -18,7 +18,7 @@ app.use(express.json());
 
 app.use("/api", interviewRoutes);
 app.use("/api", jobRoutes);
-app.use("/help", (req, res) => {
+app.use("/", (req, res) => {
   res.json({
     success: true,
     message: "Welcome to the Interview API",
