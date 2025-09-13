@@ -28,7 +28,7 @@ app.use("/help", (req, res) => {
 app.use(errorHandler);
 
 app.listen(PORT, () => {
-  console.log(`Interview API Server running on port ${PORT}`);
+  console.log(`Interview  Server running on port ${PORT}`);
 });
 
 export default app;
